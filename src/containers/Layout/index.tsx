@@ -1,14 +1,17 @@
+import { ReactNode } from 'react';
+import { StyledMain } from './styled';
+
 interface Props {
-	children: React.ReactNode;
-	navbar?: React.ReactNode;
+	children: ReactNode;
+	navbar?: ReactNode;
 }
 
 const Layout = ({ children, navbar }: Props) => {
 	return (
-		<div>
+		<>
 			{navbar && navbar}
-			{children}
-		</div>
+			<StyledMain>{children}</StyledMain>
+		</>
 	);
 };
 
