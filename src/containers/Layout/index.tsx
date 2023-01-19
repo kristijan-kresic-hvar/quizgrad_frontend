@@ -1,12 +1,12 @@
 interface Props {
 	children: React.ReactNode;
-	navbar: React.ReactNode | null;
+	navbar?: React.ReactNode;
 }
 
 const Layout = ({ children, navbar }: Props) => {
 	return (
 		<div>
-			{navbar ? navbar : null}
+			{navbar && navbar}
 			{children}
 		</div>
 	);
