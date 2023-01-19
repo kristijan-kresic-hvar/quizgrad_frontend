@@ -1,10 +1,9 @@
 import Layout from './containers/Layout';
+import Navbar from './components/Navbar';
 
-interface Props {}
-
-const App = (props: Props) => {
+const App = () => {
 	return (
-		<Layout>
+		<Layout navbar={<Navbar />}>
 			<div>App</div>
 		</Layout>
 	);
