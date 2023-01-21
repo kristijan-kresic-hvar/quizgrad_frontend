@@ -1,0 +1,40 @@
+// Vitest Snapshot v1
+
+exports[`<Home /> > should render and match the snapshot 1`] = `
+<header
+  class="sc-bcXHqe cjleWV"
+>
+  <section
+    class="sc-gswNZR lvHyg"
+  >
+    <h1
+      class="sc-dkrFOg ccuukT"
+    >
+      Learn
+      <br />
+       new concepts
+      <br />
+       for each question
+    </h1>
+    <blockquote
+      class="sc-eDvSVe iQJRIq"
+    >
+      We help you prepare for exams and quizes
+    </blockquote>
+    <div
+      class="sc-gKPRtg CAv"
+    >
+      <button
+        class="sc-jSUZER bKxzCm"
+      >
+        Get Started
+      </button>
+    </div>
+  </section>
+  <img
+    alt="hero"
+    class="sc-hLBbgP gmzKna"
+    src="/src/assets/img/hero.png"
+  />
+</header>
+`;
