@@ -21,6 +21,7 @@ export const StyledSectionLeft: StyledComponent<'section', any, {}, never> = sty
 
 	@media (max-width: 768px) {
 		margin-top: 0;
+		margin-bottom: 1rem;
 	}
 	@media (max-width: 1200px) {
 		padding-left: 0;
@@ -65,6 +66,8 @@ export const StyledBlockQuote: StyledComponent<'blockquote', any, {}, never> = s
 
 	@media (max-width: 768px) {
 		text-align: center;
+		width: max-content;
+		margin: 0 auto;
 	}
 `;
 
@@ -82,6 +85,10 @@ export const StyledCtaButton: StyledComponent<'button', any, {}, never> = styled
 	padding: 0.5rem 1rem;
 	cursor: pointer;
 	transition: background 0.2s ease-in-out;
+
+	@media (max-width: 768px) {
+		margin: 0 auto;
+	}
 
 	&:hover {
 		background: #ffffff;
